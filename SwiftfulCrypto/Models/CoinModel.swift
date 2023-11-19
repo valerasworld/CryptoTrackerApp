@@ -17,6 +17,8 @@ import Foundation
  // This is the second test!!!
  // This is the third test!!!
  
+ // This is the fourth test !!!
+ 
  {
      "id": "bitcoin",
      "symbol": "btc",
