@@ -14,7 +14,8 @@ import Foundation
  JSON Response:
  
  // This is a test
- // This is a second test!!!
+ // This is the second test!!!
+ // This is the third test!!!
  
  {
      "id": "bitcoin",
