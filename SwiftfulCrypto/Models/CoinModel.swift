@@ -13,6 +13,7 @@ import Foundation
  
  JSON Response:
  
+ // This is a test
  
  {
      "id": "bitcoin",
