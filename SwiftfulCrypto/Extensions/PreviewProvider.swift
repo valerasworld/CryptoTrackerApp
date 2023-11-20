@@ -21,6 +21,8 @@ class DeveloperPreview {
     static let instance = DeveloperPreview() // Singleton
     private init() { } // `private` init allows to initialize an instance `only` within the class
     
+    let homeViewModel = HomeViewModel()
+    
     let coin = CoinModel(
         id: "bitcoin",
         symbol: "btc",

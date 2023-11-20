@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F58C2552B0BEE290068086C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58C2542B0BEE290068086C /* HomeViewModel.swift */; };
 		9F802ADF2B0AA72C004BE78F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F802ADE2B0AA72C004BE78F /* CoinModel.swift */; };
 		9FA4A7FC2B096F4400757F4C /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4A7FB2B096F4400757F4C /* SwiftfulCryptoApp.swift */; };
 		9FA4A7FE2B096F4400757F4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4A7FD2B096F4400757F4C /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F58C2542B0BEE290068086C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9F802ADE2B0AA72C004BE78F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		9FA4A7F82B096F4400757F4C /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA4A7FB2B096F4400757F4C /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		9FA4A8112B09784200757F4C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9F58C2542B0BEE290068086C /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD1C75C2B0AC5B8008459AA /* CoinRowView.swift in Sources */,
+				9F58C2552B0BEE290068086C /* HomeViewModel.swift in Sources */,
 				9FA4A7FE2B096F4400757F4C /* ContentView.swift in Sources */,
 				9FA4A8132B09786300757F4C /* HomeView.swift in Sources */,
 				9FA4A7FC2B096F4400757F4C /* SwiftfulCryptoApp.swift in Sources */,
