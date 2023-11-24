@@ -39,7 +39,7 @@
 		9F58C25A2B0C19FA0068086C /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		9F7F8DE72B0EB67F00A7A566 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		9F802ADE2B0AA72C004BE78F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
-		9FA4A7F82B096F4400757F4C /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA4A7F82B096F4400757F4C /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA4A7FB2B096F4400757F4C /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		9FA4A7FD2B096F4400757F4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FA4A8022B096F4900757F4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		9FA4A7F92B096F4400757F4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FA4A7F82B096F4400757F4C /* SwiftfulCrypto.app */,
+				9FA4A7F82B096F4400757F4C /* CryptoTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FA4A7F72B096F4400757F4C /* SwiftfulCrypto */ = {
+		9FA4A7F72B096F4400757F4C /* CryptoTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA4A8062B096F4900757F4C /* Build configuration list for PBXNativeTarget "SwiftfulCrypto" */;
+			buildConfigurationList = 9FA4A8062B096F4900757F4C /* Build configuration list for PBXNativeTarget "CryptoTracker" */;
 			buildPhases = (
 				9FA4A7F42B096F4400757F4C /* Sources */,
 				9FA4A7F52B096F4400757F4C /* Frameworks */,
@@ -221,9 +221,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftfulCrypto;
+			name = CryptoTracker;
 			productName = SwiftfulCrypto;
-			productReference = 9FA4A7F82B096F4400757F4C /* SwiftfulCrypto.app */;
+			productReference = 9FA4A7F82B096F4400757F4C /* CryptoTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FA4A7F32B096F4300757F4C /* Build configuration list for PBXProject "SwiftfulCrypto" */;
+			buildConfigurationList = 9FA4A7F32B096F4300757F4C /* Build configuration list for PBXProject "CryptoTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -254,7 +254,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FA4A7F72B096F4400757F4C /* SwiftfulCrypto */,
+				9FA4A7F72B096F4400757F4C /* CryptoTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -483,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FA4A7F32B096F4300757F4C /* Build configuration list for PBXProject "SwiftfulCrypto" */ = {
+		9FA4A7F32B096F4300757F4C /* Build configuration list for PBXProject "CryptoTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA4A8042B096F4900757F4C /* Debug */,
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA4A8062B096F4900757F4C /* Build configuration list for PBXNativeTarget "SwiftfulCrypto" */ = {
+		9FA4A8062B096F4900757F4C /* Build configuration list for PBXNativeTarget "CryptoTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA4A8072B096F4900757F4C /* Debug */,
