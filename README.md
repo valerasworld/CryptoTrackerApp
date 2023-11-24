@@ -1,4 +1,2 @@
-# CryptoTrackerBySwiftfulThinkingBootcamp
-Crypto Tracker by Nick Sarno (Swiftful Thinking) / SwiftUI
-
-GitHub First Test
+# Crypto Tracker App
+MVVM / SwiftUI
