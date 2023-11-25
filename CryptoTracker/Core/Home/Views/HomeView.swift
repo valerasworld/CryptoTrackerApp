@@ -1,6 +1,6 @@
 //
 //  HomeView.swift
-//  SwiftfulCrypto
+//  CryptoTracker
 //
 //  Created by Валерий Зазулин on 18.11.2023.
 //

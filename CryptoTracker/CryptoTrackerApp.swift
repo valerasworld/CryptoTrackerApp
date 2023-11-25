@@ -1,6 +1,6 @@
 //
-//  SwiftfulCryptoApp.swift
-//  SwiftfulCrypto
+//  CryptoTrackerApp.swift
+//  CryptoTracker
 //
 //  Created by Валерий Зазулин on 18.11.2023.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftfulCryptoApp: App {
+struct CryptoTrackerApp: App {
     
     @StateObject private var viewModel = HomeViewModel()
     

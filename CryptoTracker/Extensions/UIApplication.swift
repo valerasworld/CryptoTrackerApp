@@ -1,6 +1,6 @@
 //
 //  UIApplication.swift
-//  SwiftfulCrypto
+//  CryptoTracker
 //
 //  Created by Валерий Зазулин on 23.11.2023.
 //

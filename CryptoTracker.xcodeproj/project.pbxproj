@@ -15,7 +15,7 @@
 		9F58C25B2B0C19FA0068086C /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58C25A2B0C19FA0068086C /* NetworkingManager.swift */; };
 		9F7F8DE82B0EB67F00A7A566 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F8DE72B0EB67F00A7A566 /* LocalFileManager.swift */; };
 		9F802ADF2B0AA72C004BE78F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F802ADE2B0AA72C004BE78F /* CoinModel.swift */; };
-		9FA4A7FC2B096F4400757F4C /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4A7FB2B096F4400757F4C /* SwiftfulCryptoApp.swift */; };
+		9FA4A7FC2B096F4400757F4C /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4A7FB2B096F4400757F4C /* CryptoTrackerApp.swift */; };
 		9FA4A7FE2B096F4400757F4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4A7FD2B096F4400757F4C /* ContentView.swift */; };
 		9FA4A8032B096F4900757F4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4A8022B096F4900757F4C /* Preview Assets.xcassets */; };
 		9FA4A80A2B09702B00757F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4A8092B09702B00757F4C /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		9F7F8DE72B0EB67F00A7A566 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		9F802ADE2B0AA72C004BE78F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		9FA4A7F82B096F4400757F4C /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA4A7FB2B096F4400757F4C /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
+		9FA4A7FB2B096F4400757F4C /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		9FA4A7FD2B096F4400757F4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FA4A8022B096F4900757F4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FA4A8092B09702B00757F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Resources/Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		9FA4A7EF2B096F4300757F4C = {
 			isa = PBXGroup;
 			children = (
-				9FA4A7FA2B096F4400757F4C /* SwiftfulCrypto */,
+				9FA4A7FA2B096F4400757F4C /* CryptoTracker */,
 				9FA4A7F92B096F4400757F4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,10 +117,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FA4A7FA2B096F4400757F4C /* SwiftfulCrypto */ = {
+		9FA4A7FA2B096F4400757F4C /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
-				9FA4A7FB2B096F4400757F4C /* SwiftfulCryptoApp.swift */,
+				9FA4A7FB2B096F4400757F4C /* CryptoTrackerApp.swift */,
 				9F58C2592B0C19CC0068086C /* Utilities */,
 				9FA4A80B2B0971AF00757F4C /* Extensions */,
 				9F58C2562B0BF6B40068086C /* Services */,
@@ -130,7 +130,7 @@
 				9FA4A8092B09702B00757F4C /* Assets.xcassets */,
 				9FA4A8012B096F4900757F4C /* Preview Content */,
 			);
-			path = SwiftfulCrypto;
+			path = CryptoTracker;
 			sourceTree = "<group>";
 		};
 		9FA4A8012B096F4900757F4C /* Preview Content */ = {
@@ -283,7 +283,7 @@
 				9F7F8DE82B0EB67F00A7A566 /* LocalFileManager.swift in Sources */,
 				9FA4A8132B09786300757F4C /* HomeView.swift in Sources */,
 				9F0F82772B0D664C0053F0F1 /* CoinImageView.swift in Sources */,
-				9FA4A7FC2B096F4400757F4C /* SwiftfulCryptoApp.swift in Sources */,
+				9FA4A7FC2B096F4400757F4C /* CryptoTrackerApp.swift in Sources */,
 				9FE38CD62B100D310012338F /* UIApplication.swift in Sources */,
 				9FA4A8172B09797600757F4C /* CircleButtonView.swift in Sources */,
 				9FA4A80D2B0971C300757F4C /* Color.swift in Sources */,
@@ -427,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulCrypto/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Y2GLVDA82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,7 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulCrypto/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Y2GLVDA82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

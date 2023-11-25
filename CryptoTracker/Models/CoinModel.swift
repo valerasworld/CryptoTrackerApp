@@ -1,6 +1,6 @@
 //
 //  CoinModel.swift
-//  SwiftfulCrypto
+//  CryptoTracker
 //
 //  Created by Валерий Зазулин on 19.11.2023.
 //

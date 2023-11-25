@@ -1,6 +1,6 @@
 //
 //  Double.swift
-//  SwiftfulCrypto
+//  CryptoTracker
 //
 //  Created by Валерий Зазулин on 20.11.2023.
 //
