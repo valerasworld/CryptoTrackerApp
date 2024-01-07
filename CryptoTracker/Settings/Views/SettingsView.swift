@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     
+    @Environment(\.dismiss) var dismiss
     let defaultURL = URL(string: "https://www.google.com")!
     let coffeeURL = URL(string: "https://www.buymeacoffee.com/nicksarno")!
     let youtubeURL = URL(string: "https://www.youtube.com/c/swiftfulthinking")!
@@ -27,7 +28,7 @@ struct SettingsView: View {
             .navigationTitle("Settings")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    XMarkButtonView()
+                    XMarkButtonView(dismiss: _dismiss)
                 }
             }
         }

@@ -55,6 +55,7 @@ struct DetailView: View {
             }
             
         }
+        .navigationBarTitleDisplayMode(.large)
         .navigationTitle(viewModel.coin.name)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
