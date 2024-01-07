@@ -26,6 +26,7 @@ struct CryptoTrackerApp: App {
                     HomeView()
                         .toolbar(.hidden)
                 }
+                .toolbarRole(.navigationStack)
                 .environmentObject(viewModel)
                 
                 ZStack {
