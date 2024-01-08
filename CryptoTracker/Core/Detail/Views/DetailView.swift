@@ -36,7 +36,6 @@ struct DetailView: View {
     
     var body: some View {
         ScrollView {
-            
             VStack {
                 ChartView(coin: viewModel.coin)
                     .padding(.vertical)
@@ -53,8 +52,11 @@ struct DetailView: View {
                 }
                 .padding()
             }
-            
         }
+        .background(
+            Color.theme.background
+                .ignoresSafeArea()
+        )
         .navigationBarTitleDisplayMode(.large)
         .navigationTitle(viewModel.coin.name)
         .toolbar {
